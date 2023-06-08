@@ -3,12 +3,11 @@
 }
 
 .result {
-   display: flex;
-   background-color: #ddd1d15d;
+  display: flex;
+  background-color: #ddd1d15d;
   justify-content: flex-end;
   color: rgb(235, 225, 225);
   height: 64px;
   padding-top: 30px;
   font-size: 52px;
 }
-
