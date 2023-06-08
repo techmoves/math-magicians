@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <h1><b>Leader board app</b></h1>
+  <h1><b>Math Magician App app</b></h1>
 
 </div>
 
