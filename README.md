@@ -1,29 +1,13 @@
 <a name="readme-top"></a>
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 
 <div align="center">
-## Available Scripts
-
+## Available Script
 
   <h1><b>Math magician App</b></h1>
-In the project directory, you can run:
-
-
-</div>
-### `npm start`
-
 
 <!-- TABLE OF CONTENTS -->
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
 
 # 📗 Table of Contents
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-
 - [📖 About the Project](#about-project)
 ### `npm test`
   - [🛠 Built With](#built-with)
@@ -46,8 +30,6 @@ You may also see any lint errors in the console.
 
 
 <!-- PROJECT DESCRIPTION -->
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 
 # 📖 Math magician <a name="about-project"></a>
@@ -59,12 +41,6 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-
-## 🛠 Built With <a name="built-with"></a>
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -99,11 +75,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 
-## Learn More
-
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 To learn React, check out the [React documentation](https://reactjs.org/).
@@ -117,21 +88,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
 
-- To get a local copy up and running, follow these steps.
-### Analyzing the Bundle Size
-
-
 ### Prerequisites
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-
-- You only need a browser to run the html file in.
-### Making a Progressive Web App
--  A web browser: You will need a modern web browser such as Google Chrome, Mozilla Firefox, or Safari to view and test your project.
-A code editor: You will need a code editor such as Visual Studio Code, Sublime Text, or Atom to write, edit, and manage your project's files.
-A local server: You will need a local server such as XAMPP or WAMP to run your project locally and test it on your own computer.
-Knowledge of HTML, CSS, and JavaScript: You will need to have a basic understanding of HTML, CSS, and JavaScript in order to build a web development project.
-Familiarity with Git and GitHub: If you are using Git and GitHub to manage your project's codebase, you will need to be familiar with how to use them.
 
 
 ### Setup
@@ -226,15 +185,6 @@ To run tests, run the following command:
 - [X] **[ Deploy ]**
 
 
-
-    Project 1: Setup.
-    Project 2: Components.
-    Project 3: Events.
-    Project 4: Fetch data from API.
-    Project 5: Full website.
-    Project 6: Tests (pair programming).
-    Exercise: Deploy.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -281,74 +231,3 @@ This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
