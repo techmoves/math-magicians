@@ -4,9 +4,8 @@
 <div align="center">
 
 
-  <h1><b>Math Magician App app</b></h1>
+  <h1><b>Math Magician App</b></h1>
 
-  <h1><b>Math Magcian app</b></h1>
 
 
 </div>
@@ -46,20 +45,13 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- HTML-5
-- CSS3
-- Java Script ES 6
-- Linters
-- webpack
-- Babel 
-- React
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://github.com/microverseinc/linters-config/tree/master/html-css-js">Linters</a></li>
     <li><a href="https://www.w3schools.com/html/">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://www.w3schools.com/css/">t=React</a></li>
   </ul>
 </details>
 
