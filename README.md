@@ -139,8 +139,6 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Features to be added:
-
 - [X] **[ Setup]**
 - [x] **[ Components.]**
 - [X] **[ Events.]**
