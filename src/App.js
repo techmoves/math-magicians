@@ -4,6 +4,8 @@ import "./App.css";
 import React from "react";
 import Calculator from "./componets/calculator";
 import Input from "./componets/Input";
+import Button from "./componets/button";
+
 
 
 const App = () => {
@@ -11,6 +13,7 @@ const App = () => {
     <div className="App">
       <div className="calculator-wrapper">
         <Input />
+        <Button />
         <div className="row">
           <Calculator symbol="AC" />
           <Calculator symbol="+/-" />
@@ -44,6 +47,7 @@ const App = () => {
       </div>
     </div>
   );
+
 };
 
 export default App;

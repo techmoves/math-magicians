@@ -1,13 +1,14 @@
-/*eslint-disable */
+import './calculator.css';
+import PropTypes from 'prop-types';
 
-import "./calculator.css"; 
+const Calculator = ({ Children }) => (
+  <div className="calc-wrapper">
+    { Children }
+  </div>
+);
 
-const Calculator = ({ symbol, Color }) => {
-  return (
-    <div className="calc-wrapper"style={{ backgroundColor:Color}}>
-      {symbol}
-    </div>
-  );
+Calculator.propTypes = {
+  Children: PropTypes.node.isRequired,
 };
 
 export default Calculator;
