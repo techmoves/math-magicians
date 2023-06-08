@@ -1,11 +1,8 @@
-/*eslint-disable */
-
 import "./App.css";
 import React from "react";
 import Calculator from "./componets/calculator";
 import Input from "./componets/Input";
 import Button from "./componets/button";
-
 
 
 const App = () => {
