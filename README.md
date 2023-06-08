@@ -68,15 +68,15 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 - You only need a browser to run the html file in.
 -  A web browser: You will need a modern web browser such as Google Chrome, Mozilla Firefox, or Safari to view and test your project.
+-  Vs code
 
 
 ### Setup
 
-- Create a new folder to store the files in.
-- Open a command-line interface (e.g. Terminal on Mac or Linux, Command Prompt on Windows).
-Navigate to the folder where you want to clone the repository using the cd command.
-Use the git clone command followed by the repository's URL to clone the repository. For example: git clone https://github.com/techmoves/math-magicians.git
-Press enter and wait for the repository to finish cloning.
+- Clone this repo here:
+
+ git clone https://github.com/techmoves/math-magicians.git
+
 
 ### Install
 
