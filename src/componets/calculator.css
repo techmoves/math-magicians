@@ -1,0 +1,15 @@
+.calc-wrapper {
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e7de;
+  font-size: 20px;
+  color: rgb(20, 19, 19);
+  flex: 1;
+  margin: 1px;
+}
+
+.row {
+  display: flex;
+}
