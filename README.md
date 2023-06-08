@@ -51,13 +51,9 @@ It correctly bundles React in production mode and optimizes the build for the be
   <ul>
     <li><a href="https://www.w3schools.com/html/">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-    <li><a href="https://www.w3schools.com/css/">t=React</a></li>
+    <li><a href="https://www.w3schools.com/css/">React</a></li>
   </ul>
 </details>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -72,10 +68,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 - You only need a browser to run the html file in.
 -  A web browser: You will need a modern web browser such as Google Chrome, Mozilla Firefox, or Safari to view and test your project.
-A code editor: You will need a code editor such as Visual Studio Code, Sublime Text, or Atom to write, edit, and manage your project's files.
-A local server: You will need a local server such as XAMPP or WAMP to run your project locally and test it on your own computer.
-Knowledge of HTML, CSS, and JavaScript: You will need to have a basic understanding of HTML, CSS, and JavaScript in order to build a web development project.
-Familiarity with Git and GitHub: If you are using Git and GitHub to manage your project's codebase, you will need to be familiar with how to use them.
+
 
 ### Setup
 
