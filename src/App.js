@@ -1,29 +1,46 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Calculator from './componets/calculator';
+import Input from './componets/Input';
+import Button from './componets/button';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          {' '}
-          <code>src/App.js</code>
-          {' '}
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => (
+  <div className="App">
+    <div className="calculator-wrapper">
+      <Input />
+      <Button />
+      <div className="row">
+        <Calculator symbol="AC" />
+        <Calculator symbol="+/-" />
+        <Calculator symbol="%" />
+        <Calculator symbol="+" Color="#f2a33c" />
+      </div>
+      <div className="row">
+        <Calculator symbol="7" />
+        <Calculator symbol="8" />
+        <Calculator symbol="9" />
+        <Calculator symbol="X" Color="#f2a33c" />
+      </div>
+      <div className="row">
+        <Calculator symbol="4" />
+        <Calculator symbol="5" />
+        <Calculator symbol="6" />
+        <Calculator symbol="-" Color="#f2a33c" />
+      </div>
+      <div className="row">
+        <Calculator symbol="1" />
+        <Calculator symbol="2" />
+        <Calculator symbol="3" />
+        <Calculator symbol="+" Color="#f2a33c" />
+      </div>
+      <div className="row">
+        <Calculator symbol="0" />
+        <Calculator symbol="" />
+        <Calculator symbol="." />
+        <Calculator symbol="=" Color="#f2a33c" />
+      </div>
     </div>
-  );
-}
+  </div>
+);
 
 export default App;
