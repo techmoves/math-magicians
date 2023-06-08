@@ -38,7 +38,7 @@
 
 # 📖 Math Magician App<a name="about-project"></a>
 
-> I developed a Math Magican App using React, and APIs. This project aims to create a simple and intuitive interface that allows users to perform math task in a style manner.👌 Builds the app for production to the build folder.
+ I developed a Math Magican App using React, and APIs. This project aims to create a simple and intuitive interface that allows users to perform math task in a style manner.👌 Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 
