@@ -9,7 +9,7 @@ export default function Quote() {
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
-      
+
 
       const settings = {
         headers: { "X-Api-Key": "5yCNhWqtixQuin+kzUdPQg==tAtXV9GzU1F6kFYv" },
@@ -37,7 +37,7 @@ export default function Quote() {
   }, []);
 
   if (loading === true) return <div>Loading...</div>;
-  if (hasError === true) return <div>Error try again</div>;
+  if (hasError === true) return <div>Error please try again</div>;
 
-  return <div> {data} </div>;
+  return <div className="load-data"> {data} </div>;
 }
