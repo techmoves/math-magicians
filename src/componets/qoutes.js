@@ -9,6 +9,7 @@ export default function Quote() {
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
+      
 
       const settings = {
         headers: { "X-Api-Key": "5yCNhWqtixQuin+kzUdPQg==tAtXV9GzU1F6kFYv" },
