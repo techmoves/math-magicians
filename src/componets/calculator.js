@@ -35,7 +35,7 @@ export default function Calculator() {
           <Button className="calc-btn" value="9" handleClick={eventHandler} />
           <Button
             className="calc-btn orange"
-            value="*"
+            value="x"
             handleClick={eventHandler}
           />
         </div>
