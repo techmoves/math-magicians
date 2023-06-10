@@ -47,7 +47,7 @@ body {
   grid-template-columns: 2fr 1fr 1fr;
 }
 
-.calc-btn{
+.calc-btn {
   border: 1px solid rgb(176, 177, 186);
   padding: 10px;
   text-align: center;
