@@ -74,13 +74,13 @@ body {
 }
 
 .load-data {
-  color :rgb(46, 46, 177);
+  color: rgb(46, 46, 177);
   font-size: 25px;
   width: 100%;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
   align-content: center;
-  border: 4px solid #FFF;
+  border: 4px solid #fff;
   border-radius: 60px;
 }
