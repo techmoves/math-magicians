@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Button from './Button';
+import Button from './button';
 import calculate from '../logic/calculate';
 
 export default function Calculator() {
