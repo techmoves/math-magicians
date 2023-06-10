@@ -1,11 +1,21 @@
-import './button.css';
-
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const button = ({ symbol, color }) => (
-  <div className="button-color">
-    {(symbol, color)}
-  </div>
-);
+export default function Button({ value, className, handleClick }) {
+  return (
+    <button
+      type="button"
+      name={value}
+      className={className}
+      onClick={handleClick}
+    >
+      {value}
+    </button>
+  );
+}
 
-export default button;
+Button.propTypes = {
+  value: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
+  handleClick: PropTypes.func.isRequired,
+};
