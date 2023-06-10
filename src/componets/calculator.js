@@ -12,7 +12,6 @@ export default function Calculator() {
   const eventHandler = (e) => {
     setState(calculate(state, e.target.name));
   };
-
   return (
     <div className="calculator-container">
       <div className="calculator">
@@ -20,50 +19,46 @@ export default function Calculator() {
           <div className="display">{next || operation || total || 0}</div>
         </div>
         <div className="row">
-          <Button className="calc-btn" value="AC" handleClick={eventHandler} />
-          <Button className="calc-btn" value="+/-" handleClick={eventHandler} />
-          <Button className="calc-btn" value="%" handleClick={eventHandler} />
-          <Button
-            className="calc-btn orange"
-            value="÷"
-            handleClick={eventHandler}
-          />
+          <Button className="column" value="AC" handleClick={eventHandler} />
+          <Button className="column" value="+/-" handleClick={eventHandler} />
+          <Button className="column" value="%" handleClick={eventHandler} />
+          <Button className="column orange" value="÷" handleClick={eventHandler} />
         </div>
         <div className="row">
-          <Button className="calc-btn" value="7" handleClick={eventHandler} />
-          <Button className="calc-btn" value="8" handleClick={eventHandler} />
-          <Button className="calc-btn" value="9" handleClick={eventHandler} />
+          <Button className="column" value="7" handleClick={eventHandler} />
+          <Button className="column" value="8" handleClick={eventHandler} />
+          <Button className="column" value="9" handleClick={eventHandler} />
           <Button
+
             className="calc-btn orange"
+
+
+
             value="x"
             handleClick={eventHandler}
           />
         </div>
         <div className="row">
-          <Button className="calc-btn" value="4" handleClick={eventHandler} />
-          <Button className="calc-btn" value="5" handleClick={eventHandler} />
-          <Button className="calc-btn" value="6" handleClick={eventHandler} />
-          <Button
-            className="calc-btn orange"
-            value="-"
-            handleClick={eventHandler}
-          />
+          <Button className="column" value="4" handleClick={eventHandler} />
+          <Button className="column" value="5" handleClick={eventHandler} />
+          <Button className="column" value="6" handleClick={eventHandler} />
+          <Button className="column orange" value="-" handleClick={eventHandler} />
         </div>
         <div className="row">
-          <Button className="calc-btn" value="1" handleClick={eventHandler} />
-          <Button className="calc-btn" value="2" handleClick={eventHandler} />
-          <Button className="calc-btn" value="3" handleClick={eventHandler} />
+          <Button className="column" value="1" handleClick={eventHandler} />
+          <Button className="column" value="2" handleClick={eventHandler} />
+          <Button className="column" value="3" handleClick={eventHandler} />
           <Button
-            className="calc-btn orange"
+            className="column orange"
             value="+"
             handleClick={eventHandler}
           />
         </div>
         <div className="row">
-          <Button className="calc-btn" value="0" handleClick={eventHandler} />
-          <Button className="calc-btn" value="." handleClick={eventHandler} />
+          <Button className="column" value="0" handleClick={eventHandler} />
+          <Button className="column" value="." handleClick={eventHandler} />
           <Button
-            className="calc-btn orange"
+            className="column orange"
             value="="
             handleClick={eventHandler}
           />
