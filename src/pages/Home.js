@@ -4,7 +4,7 @@ function Home() {
   return (
     <div>
       <div className="homepage-wrapper">
-        <h1> Welcome to our page!</h1>
+        <h1 className="title"> Welcome to our page!</h1>
 
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero

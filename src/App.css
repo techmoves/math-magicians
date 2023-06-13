@@ -76,11 +76,51 @@ body {
 .load-data {
   color: rgb(46, 46, 177);
   font-size: 25px;
-  width: 100%;
+  width: 82%;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  align-content: center;
   border: 4px solid #fff;
-  border-radius: 60px;
+  border-radius: 256px;
+  padding: 20px 20px;
+  margin-top: 110px;
+}
+
+.title {
+  color: black;
+  font-size: 35px;
+  margin: 5% 5%;
+  font-weight: 600;
+  font-family: 'inter', sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'inter', sans-serif;
+  width: auto;
+  margin: 5% 5%;
+}
+
+nav ul {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+  font-size: 20px;
+  align-items: center;
+  padding-left: 69%;
+}
+
+nav ul li {
+  align-items: center;
+}
+
+.topic {
+  color: black;
+  position: absolute;
+  margin: 0 5%;
+}
+
+h2 {
+    color: black;
 }

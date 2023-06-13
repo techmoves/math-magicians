@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav>
+      <h1 className="topic">Math Magicians</h1>
       <ul>
         <li>
           <Link className="link" to="/">
