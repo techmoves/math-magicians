@@ -1,13 +1,13 @@
-import React from "react";
-import Quote from "../componets/qoutes";
+import React from 'react';
+import Quote from '../componets/qoutes';
 
-function Quote() {
+function Quotex() {
   return (
     <div>
-      <div className="QuotePage-wrapper">
+      <div>
         <Quote />
       </div>
     </div>
   );
 }
-export default Quote;
+export default Quotex;

@@ -1,13 +1,13 @@
-import Calculator from "../src/componets/calculator";
+import Calculator from './componets/calculator';
 
-function Calculator() {
+function Calculatorx() {
   return (
     <div>
-      <div className="CalculatorPage-wrapper">
-        <h1>Let's do some math!</h1>
+      <div>
+        <h2>Let do some math</h2>
         <Calculator />
       </div>
     </div>
   );
 }
-export default Calculator;
+export default Calculatorx;
