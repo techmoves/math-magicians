@@ -1,22 +1,20 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
-// import Calculator from './componets/calculator';
-// import Quote from './componets/qoutes';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Calculators from './pages/Calculators';
-import Quote from './pages/Quote';
-import Navbar from './src/componets/Navbar';
+import Quote from './componets/qoutes';
+import Calculator from './componets/calculator';
+import Navbar from './componets/Navbar';
 
 function App() {
   return (
-    <div>
+    <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Calculators" element={<Calculators />} />
-        <Route path="/Quote" element={<Quote />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/calculator" element={<Calculator />} />
+        <Route exact path="/quote" element={<Quote />} />
       </Routes>
-    </div>
+    </Router>
   );
 }
 

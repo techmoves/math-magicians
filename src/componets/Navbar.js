@@ -3,27 +3,25 @@
 import React from 'react';
 import './navbar.css';
 import { Link } from 'react-router-dom';
-import styled, { css } from "styled-components";
-
 
 function Navbar() {
   return (
     <nav>
       <ul>
         <li>
-          <link className="link" to="/">
+          <Link className="link" to="/">
             Home
-          </link>
+          </Link>
         </li>
         <li>
-          <link className="link" to="/Calculator">
+          <Link className="link" to="/calculator">
             Calculator
-          </link>
+          </Link>
         </li>
         <li>
-          <link className="link" to="/Quote">
+          <Link className="link" to="/quote">
             Quote
-          </link>
+          </Link>
         </li>
       </ul>
     </nav>

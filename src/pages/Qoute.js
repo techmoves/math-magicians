@@ -1,5 +1,5 @@
 import React from "react";
-import Quote from "../src/componets/qoutes";
+import Quote from "../componets/qoutes";
 
 function Quote() {
   return (

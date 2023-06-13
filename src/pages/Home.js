@@ -1,6 +1,5 @@
 import React from 'react';
-import styled from "styled-components";
-
+// import styled from "styled-components";
 
 function Home() {
   return (
@@ -30,14 +29,14 @@ function Home() {
 }
 export default Home;
 
-const mainDiv = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 2em;
-  color:black;
-  homepage-wrapper {
-    width:50%
-  }
-`;
+// const mainDiv = styled.div`
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   margin: 2em;
+//   color:black;
+//   homepage-wrapper {
+//     width:50%
+//   }
+// `;
