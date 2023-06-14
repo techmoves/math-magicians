@@ -14,6 +14,7 @@ export default function Calculator() {
   };
   return (
     <div className="calculator-container">
+      <h2 className="math">Lets do some math</h2>
       <div className="calculator">
         <div className="row">
           <div className="display">{next || operation || total || 0}</div>
@@ -22,7 +23,11 @@ export default function Calculator() {
           <Button className="calc-btn" value="AC" handleClick={eventHandler} />
           <Button className="calc-btn" value="+/-" handleClick={eventHandler} />
           <Button className="calc-btn" value="%" handleClick={eventHandler} />
-          <Button className="calc-btn orange" value="÷" handleClick={eventHandler} />
+          <Button
+            className="calc-btn orange"
+            value="÷"
+            handleClick={eventHandler}
+          />
         </div>
         <div className="row">
           <Button className="calc-btn" value="7" handleClick={eventHandler} />
@@ -38,7 +43,11 @@ export default function Calculator() {
           <Button className="calc-btn" value="4" handleClick={eventHandler} />
           <Button className="calc-btn" value="5" handleClick={eventHandler} />
           <Button className="calc-btn" value="6" handleClick={eventHandler} />
-          <Button className="calc-btn orange" value="-" handleClick={eventHandler} />
+          <Button
+            className="calc-btn orange"
+            value="-"
+            handleClick={eventHandler}
+          />
         </div>
         <div className="row">
           <Button className="calc-btn" value="1" handleClick={eventHandler} />

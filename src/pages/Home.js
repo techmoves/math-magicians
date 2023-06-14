@@ -27,15 +27,3 @@ function Home() {
   );
 }
 export default Home;
-
-// const mainDiv = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   margin: 2em;
-//   color:black;
-//   homepage-wrapper {
-//     width:50%
-//   }
-// `;

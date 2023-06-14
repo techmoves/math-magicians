@@ -124,3 +124,8 @@ nav ul li {
 h2 {
   color: black;
 }
+
+.math {
+  margin-right: 12%;
+  font-size: 40px;
+}
