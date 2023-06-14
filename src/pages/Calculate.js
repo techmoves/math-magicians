@@ -1,6 +1,6 @@
-import Calculator from './componets/Calculate';
+import Calculator from '../componets/calculator';
 
-function Calculatorx() {
+function Calculate() {
   return (
     <div>
       <h2>Lets do some math</h2>
@@ -8,4 +8,4 @@ function Calculatorx() {
     </div>
   );
 }
-export default Calculatorx;
+export default Calculate;
