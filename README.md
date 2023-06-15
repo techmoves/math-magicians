@@ -64,6 +64,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 - To get a local copy up and running, follow these steps.
 
+
+<!-- LIVE Link -->
+## 🚀 Live link <a name="https://math-magician-xa5q.onrender.com/"></a>
+
 ### Prerequisites
 
 - You only need a browser to run the html file in.
